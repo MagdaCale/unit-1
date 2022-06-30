@@ -1,10 +1,11 @@
 * {
-    margin:0%;
+    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     height: 100vh;
     background-repeat: no-repeat;
@@ -12,5 +13,27 @@ body {
     background-image: url(../img/ocean.avif);
 }
 h1 {
+    border-radius: 0.5rem;
+    margin: 1.5em;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
     font-size: 2.5em;
+    background-color: black;
+    background: rgba(0, 0, 0, 50%);
+}
+article {
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 2em;
+    text-align: center;
+    margin: 3em;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.4);
+}
+p {
+    margin: 2em;
+}
+h2 {
+    font-size: 2.0em;
 }
