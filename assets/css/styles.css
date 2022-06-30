@@ -11,3 +11,6 @@ body {
     background-size: cover;
     background-image: url(../img/ocean.avif);
 }
+h1 {
+    font-size: 2.5em;
+}
